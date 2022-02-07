@@ -1,22 +1,19 @@
-function caseInSwitch(val) {
-  let answer = "";
-  // Only change code below this line
+function switchOfStuff(val) {
+  var answer = "";
+
   switch (val) {
-    case 1:
-      answer = "alpha";
+    case "a":
+      answer = "apple";
       break;
-    case 2:
-      answer = "beta";
+    case "b":
+      answer = "bird";
       break;
-    case 3:
-      answer = "gamma";
+    case "c":
+      answer = "cat";
       break;
-    case 4:
-      answer = "delta";
-      break;
+    default:
+      answer = "stuff";
   }
-  // Only change code above this line
+
   return answer;
 }
-// Change this value to test
-caseInSwitch(1);

@@ -1,10 +1,9 @@
-// Setup
-const myDog = {
-  "name": "Coder",
-  "legs": 4,
-  "tails": 1,
-  "friends": ["freeCodeCamp Campers"]
+var myDog = {
+  name: "Happy Coder",
+  legs: 4,
+  tails: 1,
+  friends: ["freeCodeCamp Campers"]
 };
 
-// Only change code below this line
-myDog.name = "Happy Coder"; // Solution
+// Only change code below this line.
+myDog.bark = "woof";
